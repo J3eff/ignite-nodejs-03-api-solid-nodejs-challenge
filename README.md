@@ -1,21 +1,21 @@
 # App
 
-Find A Friend - API
+FindAFriend API
 
-# RFs (Requisitos funcionais)
-- [ ] O cadastro de um pet
-- [ ] A listagem de todos os pets disponíveis para adoção em uma determinada cidade
-- [ ] A filtragem de pets com base em suas características (como idade, porte, etc.)
-- [ ] A visualização dos detalhes de um pet específico
-- [ ] O cadastro de uma ORG (organização)
-- [ ] O login de uma ORG no sistema
+## Regras da aplicação
 
-# RNs (Regras de négocio)
-- [ ] A informação da cidade é obrigatória para listar os pets
-- [ ] Uma ORG deve, obrigatoriamente, ter um endereço e um número de WhatsApp
-- [ ] Todo pet cadastrado precisa estar vinculado a uma ORG
-- [ ] O contato do usuário interessado em adotar um pet será feito diretamente com a ORG via WhatsApp
-- [ ] Todos os filtros de características do pet, com exceção da cidade, são opcionais
-- [ ] Para que uma ORG tenha acesso administrativo à aplicação, ela deve estar logada
+- [x] Deve ser possível se cadastrar como uma ORG
+- [x] Deve ser possível realizar login como uma ORG
+- [x] Deve ser possível cadastrar um pet
+- [x] Deve ser possível listar todos os pets disponíveis para adoção em uma cidade
+- [x] Deve ser possível filtrar pets por suas características
+- [x] Deve ser possível visualizar detalhes de um pet para adoção
 
+## Regras de negócio
 
+- [x] Para listar os pets, obrigatoriamente precisamos informar a cidade
+- [x] Uma ORG precisa ter um endereço e um número de WhatsApp
+- [x] Um pet deve estar ligado a uma ORG
+- [x] O usuário que quer adotar, entrará em contato com a ORG via WhatsApp
+- [x] Todos os filtros, além da cidade, são opcionais
+- [x] Para uma ORG acessar a aplicação como admin, ela precisa estar logada

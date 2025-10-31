@@ -18,3 +18,4 @@ Find A Friend - API
 - [ ] Todos os filtros de características do pet, com exceção da cidade, são opcionais
 - [ ] Para que uma ORG tenha acesso administrativo à aplicação, ela deve estar logada
 
+
